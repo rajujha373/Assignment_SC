@@ -1,0 +1,24 @@
+(0.000) SELECT "core_basicdetails"."id", "core_basicdetails"."phone_number", "core_basicdetails"."wake_up_time", "core_basicdetails"."sleep_time" FROM "core_basicdetails" LIMIT 1; args=()
+(0.000) SELECT "core_basicdetails"."id", "core_basicdetails"."phone_number", "core_basicdetails"."wake_up_time", "core_basicdetails"."sleep_time" FROM "core_basicdetails" LIMIT 1; args=()
+(0.000) SELECT "core_basicdetails"."id", "core_basicdetails"."phone_number", "core_basicdetails"."wake_up_time", "core_basicdetails"."sleep_time" FROM "core_basicdetails" LIMIT 1; args=()
+(0.001) SELECT "core_basicdetails"."id", "core_basicdetails"."phone_number", "core_basicdetails"."wake_up_time", "core_basicdetails"."sleep_time" FROM "core_basicdetails" LIMIT 1; args=()
+(0.000) SELECT "core_basicdetails"."id", "core_basicdetails"."phone_number", "core_basicdetails"."wake_up_time", "core_basicdetails"."sleep_time" FROM "core_basicdetails" LIMIT 1; args=()
+(0.000) SELECT "core_basicdetails"."id", "core_basicdetails"."phone_number", "core_basicdetails"."wake_up_time", "core_basicdetails"."sleep_time" FROM "core_basicdetails" LIMIT 1; args=()
+"GET /dashboard/ HTTP/1.1" 200 572
+(0.000) SELECT "core_basicdetails"."id", "core_basicdetails"."phone_number", "core_basicdetails"."wake_up_time", "core_basicdetails"."sleep_time" FROM "core_basicdetails" LIMIT 1; args=()
+(0.000) SELECT "core_basicdetails"."id", "core_basicdetails"."phone_number", "core_basicdetails"."wake_up_time", "core_basicdetails"."sleep_time" FROM "core_basicdetails" LIMIT 1; args=()
+(0.000) SELECT "core_basicdetails"."id", "core_basicdetails"."phone_number", "core_basicdetails"."wake_up_time", "core_basicdetails"."sleep_time" FROM "core_basicdetails" LIMIT 1; args=()
+"GET /dashboard/ HTTP/1.1" 200 710
+(0.000) SELECT "core_basicdetails"."id", "core_basicdetails"."phone_number", "core_basicdetails"."wake_up_time", "core_basicdetails"."sleep_time" FROM "core_basicdetails" LIMIT 1; args=()
+(0.000) SELECT "core_basicdetails"."id", "core_basicdetails"."phone_number", "core_basicdetails"."wake_up_time", "core_basicdetails"."sleep_time" FROM "core_basicdetails" LIMIT 1; args=()
+(0.000) SELECT "core_basicdetails"."id", "core_basicdetails"."phone_number", "core_basicdetails"."wake_up_time", "core_basicdetails"."sleep_time" FROM "core_basicdetails" LIMIT 1; args=()
+"GET /dashboard/ HTTP/1.1" 200 719
+(0.000) SELECT "core_basicdetails"."id", "core_basicdetails"."phone_number", "core_basicdetails"."wake_up_time", "core_basicdetails"."sleep_time" FROM "core_basicdetails" LIMIT 1; args=()
+(0.000) SELECT "core_basicdetails"."id", "core_basicdetails"."phone_number", "core_basicdetails"."wake_up_time", "core_basicdetails"."sleep_time" FROM "core_basicdetails" LIMIT 1; args=()
+(0.000) SELECT "core_basicdetails"."id", "core_basicdetails"."phone_number", "core_basicdetails"."wake_up_time", "core_basicdetails"."sleep_time" FROM "core_basicdetails" LIMIT 1; args=()
+"GET /dashboard/ HTTP/1.1" 200 726
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()

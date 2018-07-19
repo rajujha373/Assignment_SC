@@ -1,0 +1,21 @@
+<style type="text/css">
+	b{
+		font-size: 1.5em;
+		color: green;
+	}
+</style>
+
+<h1>Hi John, This page shows between what time you are recieving the notification</h1>
+
+<p>You are recieving notification between <b>{{wake_up_time}}HRS</b> to <b>{{sleep_time}}HRS</b></p>
+
+
+<p>Something doesn't looks well with the timings? You can always update it. :)</p>
+
+
+<form action="{% url 'update_time' %}" method="post">{% csrf_token %}
+	wake up time? <input type="text" name="wake_up_hour">
+	sleep time?   <input type="text" name="sleep_hour">
+	<input type="submit" name=""><br><br>
+	NOTE: Please enter the above values between 0 to 23. (0 being midnight and 12 being midday)
+</form>

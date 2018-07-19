@@ -1,0 +1,16 @@
+<style type="text/css">
+	b{
+		font-size: 1.5em;
+		color: green;
+	}
+</style>
+
+<h1>Hi, John. This is your dashboard</h1>
+
+<h3>Your mobile number is: {{ phone }}</h3> 
+
+<p>You are recieving the sms notification starting from <b>{{ wake_up_time }}</b> hrs in the morning till <b>{{ sleep_time }}</b> hrs in the evening</p> <a href="{% url 'update_time' %}">Update timing?</a>
+
+<p>Your automated task has been running for <b>{{ uptime_in_minutes }}</b> minutes which is equivalent to <b>{{ uptime_in_hours }}</b> hours</p>
+<p style="color:red">NOTE: The time above indicates the uptime of redis server which has been used as a broker in the web application <br>
+<em>(im not including the update phone number part because twilio only provides sms to be sent to only verified numbers under its free trial)</em>	</p>
