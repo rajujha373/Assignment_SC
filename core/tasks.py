@@ -36,6 +36,8 @@ def send_sms():
 		client = Client(account_sid, auth_token)
 		message = client.messages.create(body='Hi your name is John', from_='+12527877175', to='+91'+ str(phone_number))
 	except Exception as e:
+		logger.error(e)
+		raise Exception
 		print('saaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
 
 
