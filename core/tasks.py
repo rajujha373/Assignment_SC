@@ -34,7 +34,7 @@ sleep_hour = basicDetails.objects.all()[0].sleep_time
 def send_sms():
 	try:
 		client = Client(account_sid, auth_token)
-		message = client.messages.create(body='Hi your name is John from task', from_='+12527877175', to='+91'+ str(phone_number))
+		message = client.messages.create(body='Hi your name is John', from_='+12527877175', to='+91'+ str(phone_number))
 	except Exception as e:
 		print('saaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
 
